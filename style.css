@@ -1,0 +1,66 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+body{
+    background-image: url(background.webp);
+    background-size: cover;
+}
+.logo{
+    text-align: center;
+}
+#h{
+    height: 50px;
+    text-align: center;
+    color: orange;
+    font-size: 30px;
+}
+#navbar{
+    background-color: palevioletred;
+}
+a{
+    margin: 150px;
+    font-size: 22px;
+}
+a:hover{
+    color: aqua;
+}
+#f{
+    text-align: center;
+    height: 35px;
+}
+#r{
+    text-align: center;
+    height: 40px;
+    color: orange;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fa{
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+    color: red;
+
+}
+#details{
+    background-color: chocolate;
+    
+}
+footer{
+    background-color: #0f1111;
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    right: 600px;
+}
+.std{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 70px;
+    color: greenyellow;
+}
